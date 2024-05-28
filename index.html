@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java_Practice</title>
+    <script src="example01.js " defer></script> <!-- defer is for the document to load first than executes tha java script and there is async -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Advina el numero</h1>
+
+    <div class="paragraph">
+        <p>Memos selectionado un numero entre el 1 y el 100</p>
+        <p>Intenta adivinarlo en 10 intenos o menos</p>
+        <p>Se ayundra indicado si el numero es mayo o es menor al escrito</p>    
+    </div>
+   
+    <div class="form">
+        <label for="guessField">Introduce a number</label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Enviar numero" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+</body>
+</html>

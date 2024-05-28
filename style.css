@@ -1,0 +1,21 @@
+     
+h1{
+    font-family: 'Gill Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    margin: 0;
+    padding: 25px 15px;
+    background: cornflowerblue;
+    border-radius: 25px;
+    color: black;
+    width: 35%;
+}
+
+
+.form{
+    margin: 0px;
+    padding: 20px 15px;
+}
